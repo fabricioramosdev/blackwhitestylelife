@@ -1,0 +1,50 @@
+{
+  "name": "central_preparacao_ferramentas",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "start": "webpack --watch --config webpack.config.js"
+  },
+  "dependencies": {
+    "bootstrap-vue-datatable": "^1.0.7",
+    "expo": "^36.0.2",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.20",
+    "v-calendar": "^2.2.3",
+    "v-mask": "^2.0.2",
+    "vue": "^2.3.3",
+    "vue-good-table": "^2.19.1",
+    "vue-google-charts": "^0.3.2",
+    "vue-native-cli": "^0.1.1",
+    "vue-pagination-2": "^2.0.3",
+    "vue-resource": "^1.3.4",
+    "vue-swal": "^1.0.0",
+    "vue-tables-2": "^2.0.23",
+    "vue-toast-notification": "0.0.3",
+    "vue-touch-spinner": "^1.0.19",
+    "vuejs-auto-complete": "^0.9.0",
+    "vuejs-datatable": "^2.0.0-alpha.7",
+    "vuejs-loading-plugin": "^1.0.51",
+    "webpack": "^3.12.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-env": "^1.5.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.3.3",
+    "webpack-cli": "^3.3.7",
+    "wepack-cli": "0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.embraer.com.br/scm/~fabriram/central_preparacao_ferramentas.git"
+  },
+  "description": ""
+}
